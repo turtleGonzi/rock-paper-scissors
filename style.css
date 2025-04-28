@@ -1,0 +1,68 @@
+*{
+    background-color: rgb(37, 36, 36);
+    font-size: 50px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+button{
+    background-color: bisque;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+
+.divText{
+    background-color: bisque;
+    width: 900px;
+    height: 70px;
+}
+
+.divScore{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.divScore p{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.human div, .computer div{
+    background-color: bisque;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.human,.computer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.humanScore, .computerScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
